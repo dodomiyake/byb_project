@@ -38,10 +38,51 @@ This README provides a step-by-step guide for Part 2: Practical Task 1. Follow t
    ```bash
    console.log("Hello, World!")
 
+---
+
 ### 5. Check and Stage Your File
 1. Verify the file is untracked:
    ```bash
    git status
-* The file should appear as untracked.
+- The file should appear as untracked.
+  
+2. Stage the file for commit:
+   ```bash
+   git add helloWorld.js
+3. Commit the file
+   ```bash
+   git commit -m "Added Hello World program"
+
+---
+
+### 6. Modify and Track Changes
+1. Update the file to print:
+   ```bash
+   console.log("Git is Awesome!");
+2. Verify the file is modified but unstaged:
+   ```bash
+   git status
+3. Stage the updated file:
+   ```bash
+   git add helloWorld.js
+4. Commit the changes:
+   ```bash
+   git commit -m "Modified the message printed"
+
+---
+
+### 7. Push to GitHub
+1. Add the remote repository:
+   ```bash
+   git remote add origin https://github.com/YourUsername/byb_project.git
+2. Push the repository:
+   ```bash
+   git push -u origin master
+
+---
+
+### 8. Share and Submit the Repository
+1. Copy the public URL of the repository.
+2. Add the URL to your Google Answers document under the section for Part 2: Practical Task 1.
 
 
